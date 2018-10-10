@@ -1,0 +1,136 @@
+body {
+  font-family: 'Niramit', sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  background-color: #090908;
+  background-image: url("../images/black-linen-2.png");
+  
+}
+
+a {
+  color: #dafeb7;
+}
+
+a:visited {
+  color: #544b3d;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: #b0aaa7;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+}
+
+h2,
+h3 {
+  font-size: 22px;
+}
+
+/* header */
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+#logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-size: 30px;
+  line-height: 90px;
+  color: #dafeb7;
+  text-align: center;
+  text-decoration: none;
+  background: #5e6a4c;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #dafeb7;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+/* footer */
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #dafeb7;
+  height: 50px;
+}
+
+h3, h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+/* main */
+
+#mainPhoto {
+  border-radius: 20%;
+}
+
+#topRow {
+  margin-top: 10px;
+}
+
+#aboutMe {
+  color: #b0aaa7
+}
+
+.contentBox {
+  font-size: 125%;
+}
+
