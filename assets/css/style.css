@@ -11,9 +11,9 @@ a {
   color: #dafeb7;
 }
 
-a:visited {
+/* a:visited {
   color: #544b3d;
-}
+} */
 
 
 
@@ -133,4 +133,6 @@ h3, h2 {
 .contentBox {
   font-size: 125%;
 }
+
+
 
